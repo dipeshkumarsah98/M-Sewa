@@ -1,22 +1,12 @@
-# Turborepo Tailwind CSS starter
+# M-Sewa
 
-This Turborepo starter is maintained by the Turborepo core team.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-tailwind
-```
+This is a Esewa clone project
 
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
 - `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
 - `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) shared by both `web` and `docs` applications
 - `@repo/tailwind-config`: shared Tailwind CSS theme and PostCSS configuration
