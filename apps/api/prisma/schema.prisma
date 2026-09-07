@@ -1,0 +1,22 @@
+generator client {
+  provider      = "prisma-client"
+  output        = "../src/generated/prisma"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  user_id      String   @id @db.Uuid()
+  email        String   @unique
+  full_name    String
+  phone_number String
+  password     String
+  dob          DateTime
+  status       String
+  kyc_tier     String
+  created_at   DateTime @default(now())
+  updated_at   DateTime @updatedAt
+}
