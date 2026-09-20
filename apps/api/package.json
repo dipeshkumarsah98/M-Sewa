@@ -6,6 +6,12 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "module",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=9.0.0"
+    }
+  },
   "scripts": {
     "build": "nest build",
     "deploy": "nest deploy",

@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/.next
+**/.turbo
+**/.env
+**/.env.*
+!**/env.example
+out
+.git
+**/*.tsbuildinfo
+**/.agents
+**/.claude
+**/.cursor
+**/.devin
